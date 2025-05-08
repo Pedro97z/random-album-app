@@ -28,8 +28,8 @@ PyQt5_sip==12.15.0
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
-pywin32==308
-pywin32-ctypes==0.2.3
+# pywin32==308; sys_platform == 'win32'
+# pywin32-ctypes==0.2.3
 redis==6.0.0
 requests==2.32.3
 selenium==4.23.1
